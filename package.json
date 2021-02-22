@@ -1,0 +1,22 @@
+{
+  "name": "high-altitude-balloon-project-website",
+  "version": "1.0.0",
+  "description": "A website for the High Altitude Balloon Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSJHS-Climate-Control-Team/High-Altitude-Balloon-Project-Website.git"
+  },
+  "author": "MSJHS-Climate-Control-Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSJHS-Climate-Control-Team/High-Altitude-Balloon-Project-Website/issues"
+  },
+  "homepage": "https://github.com/MSJHS-Climate-Control-Team/High-Altitude-Balloon-Project-Website#readme",
+  "dependencies": {
+    "firebase": "^8.2.9"
+  }
+}
