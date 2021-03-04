@@ -1,9 +1,8 @@
-
 body{
     font-family: Montserrat, serif;
 }
 #section-1{
-    background: url("../Images/BalloonFarm.png") no-repeat center;
+    background: url("../Images/Earth-Image.png") no-repeat center;
     background-size: cover;
     animation-name: increaseBrightness;
     animation-duration: 3s;
@@ -22,6 +21,21 @@ body{
     background-color: #e3eaea;
     color: #052570;
 }
+#mission-container{
+    padding-top: 15%;
+}
+#mission-line{
+    width: 200px;
+    border-color: #052570;
+    border-width: 3px;
+}
+#mission-title{
+    font-weight: 800;
+}
+#mission-text-container{
+    margin-top: 100px;
+    font-size: 25px;
+}
 @keyframes increaseBrightness {
     0%{
         filter: brightness(0.1);
@@ -29,5 +43,5 @@ body{
     100%{
         filter: brightness(0.8);
     }
-
 }
+
