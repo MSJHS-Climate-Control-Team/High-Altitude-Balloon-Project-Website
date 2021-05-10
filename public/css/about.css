@@ -1,0 +1,70 @@
+body{
+    font-family: Montserrat, serif;
+}
+#section-1{
+    background: url("../Images/Topography.jpg") no-repeat center;
+    background-size: cover;
+    animation-name: increaseBrightness;
+    animation-duration: 3s;
+    animation-direction: normal;
+    filter: brightness(0.8);
+}
+.title-text{
+    padding-top: 40vh;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat", serif;
+    font-size: 100px;
+    animation-delay: 2s;
+}
+#section-2, #section-4{
+    background-color: #d9d5d4;
+    color: #212121;
+}
+#section-3{
+    background-color: #b5a190;
+}
+.section-container{
+    padding-top: 5%;
+
+}
+.section-line{
+    width: 200px;
+    border-color: #212121;
+    border-width: 3px;
+}
+.section-title{
+    font-weight: 800;
+}
+.section-text-container{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.what-row{
+    margin: 50px 25px 25px;
+}
+#analyses-list-div{
+    margin-top: 45px;
+}
+.analyses-list-item{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+@keyframes increaseBrightness {
+    0%{
+        filter: brightness(0.1);
+    }
+    100%{
+        filter: brightness(0.8);
+    }
+
+}
+@media screen and (max-width: 800px)  {
+    .what-col{
+        font-size: 20px;
+    }
+    .balloon-icon{
+        width: 30px;
+        height: 35px;
+    }
+}

@@ -47,21 +47,7 @@ canvas{
 
 }
 
-#mission-container{
-    padding-top: 15%;
-}
-#mission-line{
-    width: 200px;
-    border-color: #052570;
-    border-width: 3px;
-}
-#mission-title{
-    font-weight: 800;
-}
-#mission-text-container{
-    margin-top: 100px;
-    font-size: 25px;
-}
+
 @keyframes increaseBrightness {
     0%{
         filter: brightness(0.1);
