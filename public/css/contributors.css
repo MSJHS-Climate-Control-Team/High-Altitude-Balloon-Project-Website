@@ -1,8 +1,10 @@
 body{
     font-family: Montserrat, serif;
+    min-width: 600px;
+
 }
 #section-1{
-    background: url("../Images/Topography.jpg") no-repeat center;
+    background: url("../Images/Contributors.png") no-repeat center;
     background-size: cover;
     animation-name: increaseBrightness;
     animation-duration: 3s;
@@ -17,40 +19,31 @@ body{
     font-size: 100px;
     animation-delay: 2s;
 }
-#section-2, #section-4{
-    background-color: #d9d5d4;
-    color: #212121;
-    overflow: auto;
+#section-2{
+    background-color: #e3eaea;
+    color: #052570;overflow: auto;
 }
-#section-3{
-    background-color: #b5a190;
-    overflow: auto;
-}
-.section-container{
+#mission-container{
     padding-top: 5%;
-
 }
-.section-line{
+#mission-line{
     width: 200px;
-    border-color: #212121;
+    border-color: #052570;
     border-width: 3px;
 }
-.section-title{
+#mission-title{
     font-weight: 800;
 }
-.section-text-container{
+#mission-text-container{
     margin-top: 100px;
     font-size: 25px;
 }
-.what-row{
-    margin: 50px 25px 25px;
+.launch-1-img{
+    width: 200px !important;
 }
-#analyses-list-div{
-    margin-top: 45px;
-}
-.analyses-list-item{
-    font-size: 18px;
-    margin-bottom: 25px;
+.carousel-inner{
+    width: 100%;
+    max-height: 200px !important;
 }
 @keyframes increaseBrightness {
     0%{
@@ -61,12 +54,4 @@ body{
     }
 
 }
-@media screen and (max-width: 800px)  {
-    .what-col{
-        font-size: 20px;
-    }
-    .balloon-icon{
-        width: 30px;
-        height: 35px;
-    }
-}
+

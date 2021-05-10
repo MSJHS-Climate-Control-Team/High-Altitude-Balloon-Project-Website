@@ -27,6 +27,7 @@ body{
 #section-2 {
     background-color: #bbc4cd;
     color: #052570;
+    overflow: auto;
 }
 #section-3{
     background-color: #d1d5d8;
