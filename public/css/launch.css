@@ -1,0 +1,74 @@
+body{
+    font-family: Montserrat, serif;
+    min-height: 880px;
+}
+#section-1{
+    background: url("../Images/Launch.png") no-repeat center;
+    background-size: cover;
+    animation-name: increaseBrightness;
+    animation-duration: 3s;
+    animation-direction: normal;
+    filter: brightness(0.8);
+}
+.title-text{
+    padding-top: 40vh;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat", serif;
+    font-size: 100px;
+    animation-delay: 2s;
+}
+.launch-container{
+    padding-top: 20px;
+}
+.launch-title{
+    margin-bottom: 50px;
+}
+#section-2 {
+    background-color: #bbc4cd;
+    color: #052570;
+}
+#section-3{
+    background-color: #d1d5d8;
+    color: #020924;
+}
+.carousel-inner img{
+    margin: auto;
+}
+#launch-1-text-container{
+    margin-top: 60px;
+    color: #010e35;
+    margin-right: -80px;
+}
+.launch-message{
+    font-size: 50px;
+    margin-top: 30vh;
+}
+.launch-message-description{
+    margin-top: 10vh;
+}
+.no-a {
+    color: #063762;
+    text-decoration: none;
+}
+
+.no-a:hover {
+    color: #055669;
+    text-decoration:none;
+    cursor:pointer;
+}
+@keyframes increaseBrightness {
+    0%{
+        filter: brightness(0.1);
+    }
+    100%{
+        filter: brightness(0.8);
+    }
+
+}
+@media screen and (max-width: 991px)  {
+    #launch-1-text-container{
+
+        margin-right: 0px;
+    }
+}

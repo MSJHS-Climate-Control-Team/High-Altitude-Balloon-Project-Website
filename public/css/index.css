@@ -36,6 +36,13 @@ body{
     margin-top: 100px;
     font-size: 25px;
 }
+.launch-1-img{
+    width: 200px !important;
+}
+.carousel-inner{
+    width: 100%;
+    max-height: 200px !important;
+}
 @keyframes increaseBrightness {
     0%{
         filter: brightness(0.1);
