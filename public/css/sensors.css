@@ -1,0 +1,74 @@
+body{
+    font-family: Montserrat, serif;
+}
+canvas{
+    margin: 0 auto;
+}
+#section-1{
+    background: url("../Images/Sensors.png") no-repeat center;
+    background-size: cover;
+    animation-name: increaseBrightness;
+    animation-duration: 3s;
+    animation-direction: normal;
+    filter: brightness(0.8);
+}
+.title-text{
+    padding-top: 40vh;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat", serif;
+    font-size: 100px;
+    animation-delay: 2s;
+}
+.sensor-title{
+
+}
+.sensor-section{
+    color: #eeeeee;
+    padding-top: 5vh;
+    background-color: #201b48;
+    min-height: 650px;
+}
+.sensor-description{
+    color: #a09fee;
+    margin-top: 10px;
+}
+.sensor-chart-container{
+    height: 70%;
+    width: auto;
+    padding-top: 15vh;
+}
+.sensor-container{
+    width: 800px;
+}
+.sensor-chart{
+    height:100%;
+    width: 110%;
+
+}
+
+#mission-container{
+    padding-top: 15%;
+}
+#mission-line{
+    width: 200px;
+    border-color: #052570;
+    border-width: 3px;
+}
+#mission-title{
+    font-weight: 800;
+}
+#mission-text-container{
+    margin-top: 100px;
+    font-size: 25px;
+}
+@keyframes increaseBrightness {
+    0%{
+        filter: brightness(0.1);
+    }
+    100%{
+        filter: brightness(0.8);
+    }
+
+}
+

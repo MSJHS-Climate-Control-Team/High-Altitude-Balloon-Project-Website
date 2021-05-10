@@ -12,5 +12,7 @@
     <orderEntry type="library" name="fullPage.js" level="application" />
     <orderEntry type="library" name="slidePage" level="application" />
     <orderEntry type="library" name="animate.css" level="application" />
+    <orderEntry type="library" name="chart.js" level="application" />
+    <orderEntry type="library" name="chartjs-plugin-deferred" level="application" />
   </component>
 </module>

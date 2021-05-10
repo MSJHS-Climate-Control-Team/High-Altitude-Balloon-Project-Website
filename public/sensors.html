@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>High Altitude Balloon | Sensors</title>
+    <!-- chartjs cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+    <!-- Cover page plugin -->
+    <!-- Cover page plugin documentation link - https://github.com/amendoa/fullPageScrollPureJS -->
+    <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css"/>
+    <!-- Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Main HTML stylesheet -->
+    <link rel="stylesheet" href="css/sensors.css">
+    <!-- Icon source -->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <!-- nav and footer code -->
+    <link rel="stylesheet" href="css/nav-footer.css">
+    <script src="js/nav-footer.js"></script>
+
+</head>
+<body>
+
+<div id="main" class="scroll-container">
+    <section id="section-1">
+        <div id="include-nav"></div>
+        <div class="container-fluid text-center justify-content-center">
+            <h1 class="title-text animate__animated animate__fadeInUp">SENSORS</h1>
+        </div>
+    </section>
+    <section id="section-2" class="sensor-section">
+        <div id="air-quality" class="container sensor-container">
+            <h1 id="air-quality-title" class="sensor-title">Air Quality</h1>
+            <h3 id="air-quality-description" class="sensor-description">Detects particle pollution by measuring light scattered</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="air-quality-chart" class="sensor-chart" ></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-3" class="sensor-section">
+        <div id="altimeter" class="container sensor-container">
+            <h1 id="altimeter-title" class="sensor-title">Altimeter</h1>
+            <h3 id="altimeter-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="altimeter-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-4" class="sensor-section">
+        <div id="accelerometer" class="container sensor-container">
+            <h1 id="accelerometer-title" class="sensor-title">Accelerometer</h1>
+            <h3 id="accelerometer-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="accelerometer-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-5" class="sensor-section">
+        <div id="co2" class="container sensor-container">
+            <h1 id="co2-title" class="sensor-title">CO2</h1>
+            <h3 id="co2-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="co2-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-6" class="sensor-section">
+        <div id="light" class="container sensor-container">
+            <h1 id="light-title" class="sensor-title">Light</h1>
+            <h3 id="light-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="light-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="MQ9" class="sensor-section">
+        <div id="MQ9-quality" class="container sensor-container">
+            <h1 id="MQ9-title" class="sensor-title">MQ9</h1>
+            <h3 id="MQ9-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="MQ9-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-7" class="sensor-section">
+        <div id="magnetometer" class="container sensor-container">
+            <h1 id="magnetometer-title" class="sensor-title">Magnetometer</h1>
+            <h3 id="magnetometer-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="magnetometer-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-8" class="sensor-section">
+        <div id="load_cell" class="container sensor-container">
+            <h1 id="load_cell-title" class="sensor-title">Load Cell</h1>
+            <h3 id="load_cell-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="load_cell-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-9" class="sensor-section">
+        <div id="uv" class="container sensor-container">
+            <h1 id="uv-title" class="sensor-title">UV</h1>
+            <h3 id="uv-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="uv-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-10" class="sensor-section">
+        <div id="p" class="container sensor-container">
+            <h1 id="p-title" class="sensor-title">Pressure</h1>
+            <h3 id="p-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="p-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="section-11" class="sensor-section">
+        <div id="ht" class="container sensor-container">
+            <h1 id="ht-title" class="sensor-title">Temperature-Baro</h1>
+            <h3 id="ht-description" class="sensor-description">Measures altitude based on temperature and pressure</h3>
+            <div class="sensor-chart-container container">
+                <canvas id="ht-chart" class="sensor-chart"></canvas>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+<script src="js/full-page-scroll.js"></script><script type="text/javascript">
+    new fullScroll({
+        mainElement: "main",
+        displayDots: true,
+        dotsPosition: "right",
+        animateTime: 0.7,
+        animateFunction: "ease",
+    });
+</script>
+<script src="js/datasets/accelerometer-data.js"></script>
+<script src="js/datasets/co2-data.js"></script>
+<script src="js/datasets/light-data.js"></script>
+<script src="js/datasets/load-cell-data.js"></script>
+<script src="js/datasets/co2-data.js"></script>
+<script src="js/datasets/magnetometer-data.js"></script>
+<script src="js/datasets/mq9-data.js"></script>
+<script src="js/datasets/p-data.js"></script>
+<script src="js/datasets/ht_data.js"></script>
+<script src="js/datasets/uv-data.js"></script>
+<script src="js/datasets/air-quality-data.js"></script>
+<script src="js/datasets/altimeter-data.js"></script>
+<script src="js/sensors.js"></script>
+</html>
