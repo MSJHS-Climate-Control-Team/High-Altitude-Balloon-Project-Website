@@ -11,7 +11,7 @@ The Website was created with a few different technologies:
 
 Google Firebase Hosting
 
-Node JS, XML, and CSS 
+JavaScript, HTML, CSS, Bootstrap, ChartJS
 
 Figma for Website Design
 
