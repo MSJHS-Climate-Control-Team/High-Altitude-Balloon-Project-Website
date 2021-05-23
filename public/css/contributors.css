@@ -1,7 +1,12 @@
 body{
     font-family: Montserrat, serif;
-    min-width: 600px;
-
+    /* min-width: 600px; */
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 #section-1{
     background: url("../Images/Contributors.png") no-repeat center;
@@ -19,9 +24,23 @@ body{
     font-size: 100px;
     animation-delay: 2s;
 }
+#background-img{
+    background: url("../Images/Stars-Background.jpeg");
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #section-2{
-    background-color: #e3eaea;
-    color: #052570;overflow: auto;
+    color: white;
+    /* color: #052570; */
+    height: auto;
+    padding-bottom: 20px;
+    /* overflow: auto; */
+}
+.contributors-title{
+    margin-bottom: 50px;
 }
 #mission-container{
     padding-top: 5%;
@@ -40,6 +59,7 @@ body{
 }
 .launch-1-img{
     width: 200px !important;
+    min-height: 500px;
 }
 .carousel-inner{
     width: 100%;

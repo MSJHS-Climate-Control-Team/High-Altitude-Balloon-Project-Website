@@ -18,8 +18,9 @@ body::-webkit-scrollbar {
     filter: brightness(0.8);
 }
 .title-text{
-    padding-top: 32vh;
+    padding-top: 25vh;
     color: white;
+    opacity: 100% !important;
     font-weight: 300;
     font-family: "Montserrat", serif;
     font-size: 100px;
@@ -75,6 +76,7 @@ iframe{
 }
 .launch-1-img{
     width: 200px !important;
+    min-height: 500px;
 }
 .carousel-inner{
     width: 100%;
