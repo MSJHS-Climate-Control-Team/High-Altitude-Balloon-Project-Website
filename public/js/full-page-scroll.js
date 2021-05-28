@@ -115,7 +115,7 @@
 			window.addEventListener("hashchange", this.hashChange, false);
 
 			/**
-			 * Enable scroll if decive don't have touch support
+			 * Enable scroll if device don't have touch support
 			 */
 			if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 				if(!('ontouchstart' in window)){
