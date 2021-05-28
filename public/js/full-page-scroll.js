@@ -1,5 +1,5 @@
 /**
- * Full page
+ * javascript for full page scroll
  */
 (function () {
 	'use strict';
