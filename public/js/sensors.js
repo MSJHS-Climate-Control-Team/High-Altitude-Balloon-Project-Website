@@ -1,4 +1,4 @@
-//TODO: add descriptions
+// create charts for the sensor data
 let airQualityElement = document.getElementById('air-quality-chart').getContext('2d');
 let altimeterElement = document.getElementById('altimeter-chart').getContext('2d');
 let co2Element = document.getElementById('co2-chart').getContext('2d');
@@ -10,7 +10,7 @@ let uvElement = document.getElementById('uv-chart').getContext('2d');
 let pElement = document.getElementById('p-chart').getContext('2d');
 let htElement = document.getElementById('ht-chart').getContext('2d');
 let accelerometerElement = document.getElementById('accelerometer-chart').getContext('2d');
-
+// plot points
 function createSensorChartConfig(data){
     return {
         type: 'line',

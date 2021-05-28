@@ -1,5 +1,12 @@
 body{
     font-family: Montserrat, serif;
+    overflow-y: auto;
+    width: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 #section-1{
     background: url("../Images/Topography.jpg") no-repeat center;

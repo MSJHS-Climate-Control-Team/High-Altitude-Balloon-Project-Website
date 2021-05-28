@@ -1,3 +1,4 @@
+// navigation menu that redirect to the different pages
 const nav = "<div id=\"nav\" class=\"row text-right justify-content-end\">\n" +
     "    <a href=\"index.html\" class=\"navLink\">HOME</a>\n" +
     "    <a href=\"about.html\" class=\"navLink\">ABOUT</a>\n" +
