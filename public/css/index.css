@@ -28,13 +28,12 @@ body::-webkit-scrollbar {
 }
 #background-img{
     background: url("../Images/Stars-Background.jpeg");
-    /* min-height: 90vh; */
+    min-height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 iframe{
     display: block;
     margin-left: auto;
@@ -55,14 +54,13 @@ iframe{
     margin-top: 2vh;
 }
 #section-2{
-    margin-top: 100px;
     background-color: #e3eaea;
     color: #052570;
     opacity: 70%;
 }
 #mission-container{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 #mission-line{
     width: 200px;
